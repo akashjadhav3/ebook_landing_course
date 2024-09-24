@@ -2,6 +2,7 @@
   //   import bookCover from "./../../assets/book_cover.png";
   import bookCover from "$assets/book_cover.png";
   import phoneCover from "$assets/phone_cover.png";
+  import { Button } from "$components";
 </script>
 
 <section class="hero">
@@ -24,6 +25,9 @@
       calculating my cost of living, choosing an apartment. That's why I wrote
       this e-book, to tell you how I did it. No bullshit, no stress.
     </p>
+    <Button onclick={() => console.log("I was clicked on the hero section")}
+      >Purchase E-book for $10 WILL BE DISPLAYED</Button
+    >
   </div>
 </section>
 
